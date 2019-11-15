@@ -1,0 +1,204 @@
+examples:
+  resource_types:
+    customers:
+      attributes:
+        fname:
+          example: John
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/fname'
+        lname:
+          example: Smith
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/lname'
+        spouse:
+          example: Jane
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/spouse'
+        phone1:
+          example: 833-GET-TRAX
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/phone1'
+        phone2:
+          example: 111-222-1234
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/phone2'
+        phone3:
+          example: 333-444-1234
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/phone3'
+        phone4:
+          example: 555-666-1234
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/phone4'
+        address1:
+          example: 8281 Greensboro Drive
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/address1'
+        address2:
+          example: Suite 1
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/address2'
+        city:
+          example: Tysons
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/city'
+        state:
+          example: VA
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/state'
+        zip:
+          example: 22102
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/zip'
+        created:
+          example:
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/created'
+        status:
+          example: active
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/status'
+        sale_date:
+          example:
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/sale_date'
+        original_install_start_time:
+          example:
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/original_install_start_time'
+        contact_time:
+          example:
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/contact_time'
+        cross_street:
+          example:
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/cross_street'
+        credit_tracking:
+          example:
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/credit_tracking'
+        county:
+          example:
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/county'
+        email:
+          example: support@securitytrax.com
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/email'
+        cell_backup_charge_id:
+          example:
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/cell_backup_charge_id'
+        sellto_company_unique_id:
+          example:
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/sellto_company_unique_id'
+        business_name:
+          example: SecurityTrax
+          # $ref: '../permissions-en_us.json#/resource_types/customers/attributes/business_name'
+        business_contact:
+          example:
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/business_contact'
+        account_type:
+          example: Commercial
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/account_type'
+        payment_received:
+          example:
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/payment_received'
+        service_maintenance:
+          example:
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/service_maintenance'
+        service_pulse:
+          example:
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/service_pulse'
+        service_tellular:
+          deprecated: true
+          example:
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/service_tellular'
+        service_aarp:
+          deprecated: true
+          example:
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/service_aarp'
+        fund_noc_date:
+          example:
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/fund_noc_date'
+        is_starred:
+          example: false
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/is_starred'
+        timezone:
+          example: US/Pacific
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/timezone'
+        latitude:
+          example:
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/latitude'
+        longitude:
+          example:
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/longitude'
+        adc_lead_id:
+          example:
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/adc_lead_id'
+        lang:
+          example:
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/lang'
+        adt_nape_serial_number:
+          example:
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/adt_nape_serial_number'
+        analytics_type:
+          example:
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/analytics_type'
+        analytics_id:
+          example:
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/analytics_id'
+        record_type:
+          example:
+          $ref: '../permissions-en_us.json#/resource_types/customers/attributes/record_type'
+        created_at:
+          example: 2010-08-17T16:32:17-06:00
+        deleted_at:
+          example: 2010-08-17T16:32:17-06:00
+        updated_at:
+          example: 2010-08-17T16:32:17-06:00
+        home_ownership:
+          example: Own
+tags:
+  resource_types:
+    customers:
+      $ref: '../permissions-en_us.json#/resource_types/customers'
+    customer_abort_codes:
+      $ref: 'permissions-en_us.json#/resource_types/customer_abort_codes'
+    customer_at_risk_credit_reasons:
+      $ref: 'permissions-en_us.json#/resource_types/customer_at_risk_credit_reasons'
+    customer_at_risk_notes:
+      $ref: 'permissions-en_us.json#/resource_types/customer_at_risk_notes'
+    customer_at_risk_reasons:
+      $ref: 'permissions-en_us.json#/resource_types/customer_at_risk_reasons'
+    customer_at_risks:
+      $ref: 'permissions-en_us.json#/resource_types/customer_at_risks'
+    customer_billing_bill_cc_numbers:
+      $ref: 'permissions-en_us.json#/resource_types/customer_billing_bill_cc_numbers'
+    customer_billing_uses:
+      $ref: 'permissions-en_us.json#/resource_types/customer_billing_uses'
+    customer_billings:
+      $ref: 'permissions-en_us.json#/resource_types/customer_billings'
+    customer_birthdates:
+      $ref: 'permissions-en_us.json#/resource_types/customer_birthdates'
+    customer_cancel_reasons:
+      $ref: 'permissions-en_us.json#/resource_types/customer_cancel_reasons'
+    customer_communications:
+      $ref: 'permissions-en_us.json#/resource_types/customer_communications'
+    customer_contacts:
+      $ref: 'permissions-en_us.json#/resource_types/customer_contacts'
+    customer_credit_check_print_images:
+      $ref: 'permissions-en_us.json#/resource_types/customer_credit_check_print_images'
+    customer_credit_checks:
+      $ref: 'permissions-en_us.json#/resource_types/customer_credit_checks'
+    customer_equipment:
+      $ref: 'permissions-en_us.json#/resource_types/customer_equipment'
+    customer_files:
+      $ref: 'permissions-en_us.json#/resource_types/customer_files'
+    customer_fundings:
+      $ref: 'permissions-en_us.json#/resource_types/customer_fundings'
+    customer_invoice_payments:
+      $ref: 'permissions-en_us.json#/resource_types/customer_invoice_payments'
+    customer_lead_companies:
+      $ref: 'permissions-en_us.json#/resource_types/customer_lead_companies'
+    customer_list_settings:
+      $ref: 'permissions-en_us.json#/resource_types/customer_list_settings'
+    customer_messages:
+      $ref: 'permissions-en_us.json#/resource_types/customer_messages'
+    customer_notes:
+      $ref: 'permissions-en_us.json#/resource_types/customer_notes'
+    customer_order_information:
+      $ref: 'permissions-en_us.json#/resource_types/customer_order_information'
+    customer_payment_types:
+      $ref: 'permissions-en_us.json#/resource_types/customer_payment_types'
+    customer_payments:
+      $ref: 'permissions-en_us.json#/resource_types/customer_payments'
+    customer_ssns:
+      $ref: 'permissions-en_us.json#/resource_types/customer_ssns'
+    customer_system_information:
+      $ref: 'permissions-en_us.json#/resource_types/customer_system_information'
+    customer_tasks:
+      $ref: 'permissions-en_us.json#/resource_types/customer_tasks'
+    customer_to_payroll_role_function_levels:
+      # $ref: 'permissions-en_us.json#/resource_types/customer_to_payroll_role_function_levels'
+    customer_warranties:
+      $ref: 'permissions-en_us.json#/resource_types/customer_warranties'
